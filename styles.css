@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'falove';
+    src: url('falove.ttf');
+}
+body{
+   background-color: bisque;
+   background-size:cover;
+   font-family: falove;
+}
+.header{
+   margin-left: 715px;
+   font-size: 35px;
+}
+h2{
+    margin-left:38%;
+    margin-top: -3%;
+}
+.container {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+button{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: none;
+    background-image: url('images/button.png');
+}
+
