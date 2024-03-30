@@ -29,5 +29,7 @@ button{
     background-color: transparent;
     border: none;
     background-image: url('images/button.png');
+    font-family: falove;
+    font-size: 120px;
 }
 
