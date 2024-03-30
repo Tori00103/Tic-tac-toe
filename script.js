@@ -1,5 +1,13 @@
-const btn = document.getElementById("btn");
+const buttons = document.querySelectorAll("#btn");
 
-btn.addEventListener("click", function(e) {
-    console.log("111");
+buttons.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+        if (btn.textContent === "x") {
+            console.log("o");
+            btn.textContent = "o";
+        } else {
+            console.log("x");
+            btn.textContent = "x";
+        }
+    });
 });
